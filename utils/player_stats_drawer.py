@@ -14,6 +14,7 @@ def draw_player_stats(output_video_frames,player_stats):
         avg_player_2_speed = row['player_2_average_player_speed']
 
         frame = output_video_frames[index]
+    
 
         width=350
         height=230

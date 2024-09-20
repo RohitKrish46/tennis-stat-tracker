@@ -1,7 +1,7 @@
 import cv2
 from constants.config_constants import DOUBLE_LINE_WIDTH
 import pandas as pd
-from utils import read_video, save_video, measure_distance, convert_pixel_distance_to_meters, convert_meters_to_pixel_distance, draw_player_stats
+from utils import read_video, save_video, measure_distance, convert_pixel_distance_to_meters, draw_player_stats
 from tracker import PlayerTracker, BallTracker
 from court_line_detector import CourtLineDetector
 from mini_map import MiniCourt
